@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { useOktaAuth } from '@okta/okta-react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Navbar, Nav, Button } from 'react-bootstrap';
 
 const Home = () => {
   const { authState, oktaAuth } = useOktaAuth();
@@ -12,23 +12,31 @@ const Home = () => {
   }
 
   const button = authState.isAuthenticated ?
-    <button onClick={() => {oktaAuth.signOut()}}>Logout</button> :
-    <button onClick={() => {history.push('/login')}}>Login</button>;
+    <Button onClick={() => {oktaAuth.signOut()}}>Logout</Button> :
+    <Button onClick={() => {history.push('/login')}}>Login</Button>;
 
   return (
     <div>      
       <Container>
-        <Row className="justify-content-md-center">
-          <Col xs lg="2">
-            <Link to='/'>Home</Link>
+        <div >
+        <Row>
+          <Col md={10}>
+            <Navbar bg="primary" variant="dark">
+              <Container>
+                <Navbar.Brand>Ockta React App</Navbar.Brand>
+                <Nav className="me-auto">
+                  <Nav.Link as={Link} to='/' >Home</Nav.Link>
+                  <Nav.Link as={Link} to='/protected'>Protected</Nav.Link>
+                </Nav>
+              </Container>
+            </Navbar>
           </Col>
-          <Col xs lg="2">
-            <Link to='/protected'>Protected</Link>
+          <Col md={2}>
+          {button}
           </Col>
-          <Col xs lg="2">
-            {button}
-          </Col>
+        
         </Row>
+        </div>
       </Container>
     </div>
   );
