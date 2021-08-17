@@ -25,7 +25,7 @@ const AppWithRouterAccess = () => {
   };
 
   return (
-    <Security oktaAuth={oktaAuth} restoreOriginalUri={restoreOriginalUri}>
+    <Security oktaAuth={oktaAuth} restoreOriginalUri={restoreOriginalUri} basename={window.location.pathname || ''}>
       <Route path='/' exact={true} component={Home} />
       <SecureRoute path='/protected' component={Protected} />
       <Route path='/login' render={() => <SignIn />} />
