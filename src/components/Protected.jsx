@@ -11,7 +11,7 @@ import {
 const Protected = () => {
     return(
         <div>
-            <Router>
+            <Router basename ="/SecureReactwithOCKTA">
             <div>
                 <ul>
                 <li>
