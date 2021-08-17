@@ -32,9 +32,14 @@ const Home = () => {
             </Navbar>
           </Col>
           <Col md={2}>
-          {button}
+            {button}
+          </Col>        
+        </Row>
+        <Row>
+          <Col md={10}>
+            <p>hello</p>
+            <img src={require('./../common/img/secure.jpg')} />
           </Col>
-        
         </Row>
         </div>
       </Container>
