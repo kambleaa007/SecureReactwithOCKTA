@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/SecureReact.with.OCKTA/static/js/main.1b9f259e.chunk.js",
-    "main.js.map": "/SecureReact.with.OCKTA/static/js/main.1b9f259e.chunk.js.map",
-    "runtime-main.js": "/SecureReact.with.OCKTA/static/js/runtime-main.c22cc2f5.js",
-    "runtime-main.js.map": "/SecureReact.with.OCKTA/static/js/runtime-main.c22cc2f5.js.map",
-    "static/css/2.983f79de.chunk.css": "/SecureReact.with.OCKTA/static/css/2.983f79de.chunk.css",
-    "static/js/2.1c9dfc91.chunk.js": "/SecureReact.with.OCKTA/static/js/2.1c9dfc91.chunk.js",
-    "static/js/2.1c9dfc91.chunk.js.map": "/SecureReact.with.OCKTA/static/js/2.1c9dfc91.chunk.js.map",
-    "static/js/3.2ad05566.chunk.js": "/SecureReact.with.OCKTA/static/js/3.2ad05566.chunk.js",
-    "static/js/3.2ad05566.chunk.js.map": "/SecureReact.with.OCKTA/static/js/3.2ad05566.chunk.js.map",
-    "index.html": "/SecureReact.with.OCKTA/index.html",
-    "static/css/2.983f79de.chunk.css.map": "/SecureReact.with.OCKTA/static/css/2.983f79de.chunk.css.map",
-    "static/js/2.1c9dfc91.chunk.js.LICENSE.txt": "/SecureReact.with.OCKTA/static/js/2.1c9dfc91.chunk.js.LICENSE.txt",
-    "static/media/secure.jpg": "/SecureReact.with.OCKTA/static/media/secure.3bf08c94.jpg"
+    "main.js": "/SecureReactwithOCKTA/static/js/main.ad988751.chunk.js",
+    "main.js.map": "/SecureReactwithOCKTA/static/js/main.ad988751.chunk.js.map",
+    "runtime-main.js": "/SecureReactwithOCKTA/static/js/runtime-main.0b1dd58b.js",
+    "runtime-main.js.map": "/SecureReactwithOCKTA/static/js/runtime-main.0b1dd58b.js.map",
+    "static/css/2.983f79de.chunk.css": "/SecureReactwithOCKTA/static/css/2.983f79de.chunk.css",
+    "static/js/2.8f84d23c.chunk.js": "/SecureReactwithOCKTA/static/js/2.8f84d23c.chunk.js",
+    "static/js/2.8f84d23c.chunk.js.map": "/SecureReactwithOCKTA/static/js/2.8f84d23c.chunk.js.map",
+    "static/js/3.2ad05566.chunk.js": "/SecureReactwithOCKTA/static/js/3.2ad05566.chunk.js",
+    "static/js/3.2ad05566.chunk.js.map": "/SecureReactwithOCKTA/static/js/3.2ad05566.chunk.js.map",
+    "index.html": "/SecureReactwithOCKTA/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/SecureReactwithOCKTA/static/css/2.983f79de.chunk.css.map",
+    "static/js/2.8f84d23c.chunk.js.LICENSE.txt": "/SecureReactwithOCKTA/static/js/2.8f84d23c.chunk.js.LICENSE.txt",
+    "static/media/secure.jpg": "/SecureReactwithOCKTA/static/media/secure.3bf08c94.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c22cc2f5.js",
+    "static/js/runtime-main.0b1dd58b.js",
     "static/css/2.983f79de.chunk.css",
-    "static/js/2.1c9dfc91.chunk.js",
-    "static/js/main.1b9f259e.chunk.js"
+    "static/js/2.8f84d23c.chunk.js",
+    "static/js/main.ad988751.chunk.js"
   ]
 }
